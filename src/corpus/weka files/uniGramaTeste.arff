@@ -1,0 +1,83 @@
+@relation uniGramaTeste
+@attribute jogar numeric
+@attribute jogo numeric
+@attribute tecnico numeric
+@attribute casa numeric
+@attribute trafico numeric
+@attribute homem numeric
+@attribute morar numeric
+@attribute morador numeric
+@attribute prefeitura numeric
+@attribute vago numeric
+@attribute vaga numeric
+@attribute curso numeric
+@attribute class {esporte,policia,problema,trabalhador}
+@data
+1,1,1,0,0,0,0,0,0,0,0,0 esporte
+1,1,0,0,0,0,0,0,0,1,1,0 esporte
+1,1,1,0,0,0,0,0,0,0,0,0 esporte
+1,0,1,0,0,0,0,0,0,0,0,0 esporte
+1,1,0,0,0,0,0,0,0,1,1,0 esporte
+0,0,0,1,0,0,0,0,0,1,1,0 esporte
+1,1,1,0,0,0,0,0,0,0,0,0 esporte
+1,1,1,0,0,0,0,0,0,0,0,0 esporte
+1,1,1,1,0,0,0,0,0,0,0,0 esporte
+0,1,0,0,0,0,0,0,0,1,1,0 esporte
+1,0,1,0,0,0,0,0,0,0,0,0 esporte
+0,1,0,0,0,0,0,0,0,1,1,0 esporte
+1,1,0,0,0,0,0,0,0,0,0,0 esporte
+1,1,1,0,0,0,0,0,0,0,0,0 esporte
+1,0,1,1,0,0,0,0,0,0,0,0 esporte
+0,0,0,0,0,0,0,0,0,0,0,0 esporte
+0,1,1,0,0,0,0,0,0,0,0,0 esporte
+1,1,1,0,0,0,0,0,0,0,0,0 esporte
+0,0,0,1,0,0,0,0,0,0,0,0 esporte
+0,0,0,0,0,1,0,0,0,0,0,0 policia
+0,0,0,0,1,1,0,0,0,0,0,0 policia
+0,0,0,0,1,1,1,1,0,0,0,0 policia
+0,0,0,1,1,1,0,0,0,0,0,0 policia
+0,0,0,1,0,1,1,1,0,0,0,0 policia
+0,0,1,0,0,0,1,1,0,1,1,0 policia
+0,0,0,0,0,1,0,0,0,0,0,0 policia
+0,0,0,0,0,1,0,0,0,0,0,0 policia
+0,0,0,1,0,1,0,0,0,0,0,0 policia
+0,0,0,0,0,1,0,0,0,0,0,0 policia
+0,0,0,0,0,0,0,0,0,0,0,0 policia
+0,0,0,0,1,1,0,0,0,0,0,0 policia
+0,0,0,0,1,1,1,1,0,0,0,0 policia
+0,0,0,0,0,1,0,0,0,0,0,0 policia
+0,0,0,1,0,1,1,0,0,0,0,0 policia
+0,0,0,1,0,1,0,0,0,0,0,0 policia
+0,0,0,0,0,0,0,0,0,0,0,0 policia
+0,0,0,1,0,1,1,1,0,0,0,0 policia
+0,0,0,1,0,0,1,1,0,0,0,0 problema
+0,0,0,1,0,0,1,1,0,0,0,0 problema
+0,0,0,1,0,0,1,1,1,0,0,0 problema
+0,0,0,1,0,0,1,1,1,0,0,0 problema
+0,0,0,1,0,0,1,1,1,0,0,0 problema
+0,0,0,1,0,0,1,1,1,0,0,1 problema
+0,0,1,0,0,0,1,1,1,0,0,0 problema
+0,0,1,0,0,0,1,1,1,0,0,0 problema
+0,0,0,1,0,0,1,1,1,0,0,0 problema
+0,0,0,1,0,0,0,0,0,0,0,0 problema
+0,0,0,1,0,0,1,1,1,0,0,0 problema
+1,0,0,1,0,0,1,1,1,0,0,0 problema
+0,0,0,0,0,0,1,1,0,0,0,0 problema
+0,0,0,1,0,0,0,0,0,0,0,0 problema
+0,0,1,0,0,0,1,1,1,0,0,0 problema
+0,0,0,0,0,1,1,0,1,1,1,1 trabalhador
+0,0,0,0,0,0,0,0,0,0,0,0 trabalhador
+0,0,0,0,0,0,0,0,0,1,1,0 trabalhador
+0,0,1,0,0,0,1,1,0,0,0,1 trabalhador
+0,0,0,0,0,0,0,0,0,0,0,0 trabalhador
+0,0,1,0,0,0,0,0,0,1,1,0 trabalhador
+0,0,1,0,0,0,0,0,0,1,1,0 trabalhador
+0,0,0,0,0,0,0,0,0,0,0,0 trabalhador
+0,0,0,0,0,0,0,0,0,1,1,0 trabalhador
+0,0,0,0,0,0,0,0,0,1,1,0 trabalhador
+0,0,1,0,0,0,0,0,0,1,1,0 trabalhador
+0,0,0,0,0,0,0,0,0,0,0,1 trabalhador
+0,0,0,0,0,0,0,0,0,1,1,1 trabalhador
+0,0,0,0,0,0,1,1,0,0,0,1 trabalhador
+0,0,0,0,0,0,0,0,0,1,1,0 trabalhador
+0,0,0,0,0,0,0,0,0,1,1,1 trabalhador
